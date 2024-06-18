@@ -18,7 +18,7 @@ type ExperienceCardProps = {
 // Experience Card
 const ExperienceCard = ({ experience }: ExperienceCardProps) => (
   <VerticalTimelineElement
-    contentStyle={{ background: "#1d1836", color: "#fff" }}
+    contentStyle={{ background: "#22577a", color: "#fff" }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
@@ -64,7 +64,7 @@ export const Experience = () => {
       <>
         {/* Title */}
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What I have done so far</p>
+          {/* <p className={styles.sectionSubText}>What I have done so far</p> */}
           <h2 className={styles.sectionHeadText}>Work Experience.</h2>
         </motion.div>
 

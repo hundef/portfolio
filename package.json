@@ -1,13 +1,13 @@
 {
-  "name": "3d-portfolio",
+  "name": "Portfolio",
   "version": "1.1.4",
   "private": true,
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Hunde",
+    "email": "hundef@gmail.com",
+    "url": "https://github.com/hundef"
   },
-  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
+  "description": "Modern Portfolio using React, Three.js and Typescript",
   "keywords": [
     "reactjs",
     "react",
@@ -23,21 +23,21 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/3d-portfolio.git"
+    "url": "https://github.com/hundef/3d-portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/3d-portfolio#readme",
+  "homepage": "https://github.com/hundef/3d-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/3d-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/hundef/3d-portfolio/issues",
+    "email": "hundef@gmail.com"
   },
   "funding": [
     {
       "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
+      "url": "https://www.patreon.com/hunde"
     },
     {
       "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
+      "url": "https://www.buymeacoffee.com/hunde"
     }
   ],
   "type": "module",

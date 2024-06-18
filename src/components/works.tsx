@@ -73,7 +73,7 @@ const ProjectCard = ({
       {/* Work Info */}
       <div className="mt-5">
         <h3 className="text-white font-bold text-[24px]">{name}</h3>
-        <p className="mt-2 text-secondary text-[14px]">{description}</p>
+        <p className="mt-2 text-white-100 text-[14px]">{description}</p>
       </div>
 
       {/* Work Tag */}
@@ -95,7 +95,7 @@ export const Works = () => {
       <>
         {/* Title */}
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>My Work</p>
+          {/* <p className={styles.sectionSubText}>My Work</p> */}
           <h2 className={styles.sectionHeadText}>Projects.</h2>
         </motion.div>
 
@@ -103,7 +103,7 @@ export const Works = () => {
         <div className="w-full flex">
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
-            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+            className="mt-3 text-justify text-white text-[17px] max-w-3xl leading-[30px]"
           >
             Following projects showcases my skills and experience through
             real-world examples of my work. Each project is briefly described

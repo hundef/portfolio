@@ -98,7 +98,7 @@ export const Contact = () => {
         import.meta.env.VITE_APP_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Shubham",
+          to_name: "Hunde",
           from_email: form.email.trim().toLowerCase(),
           to_email: import.meta.env.VITE_APP_EMAILJS_RECIEVER,
           message: form.message,
@@ -109,7 +109,7 @@ export const Contact = () => {
       .catch((error) => {
         // Error handle
         console.log("[CONTACT_ERROR]: ", error);
-        toast.error("Something went wrong.");
+        toast.error("Welcome!.");
       })
       .finally(() => {
         setLoading(false);
@@ -129,7 +129,7 @@ export const Contact = () => {
           className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
         >
           {/* Title */}
-          <p className={styles.sectionSubText}>Get in touch</p>
+          {/* <p className={styles.sectionSubText}>Get in touch</p> */}
           <h3 className={styles.sectionHeadText}>Contact.</h3>
 
           {/* Form */}
@@ -169,7 +169,7 @@ export const Contact = () => {
                 id="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="johndoe@email.com"
+                placeholder="hundef@gmail.com"
                 title="What's your email?"
                 disabled={loading}
                 aria-disabled={loading}

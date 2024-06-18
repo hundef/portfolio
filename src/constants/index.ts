@@ -37,7 +37,7 @@ import {
   twitter,
   github,
 } from "../assets";
-
+export const exprianceYear = new Date().getFullYear() - 2017
 // Navbar Links
 export const NAV_LINKS = [
   {
@@ -55,11 +55,7 @@ export const NAV_LINKS = [
     title: "Contact",
     link: null,
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
-  },
+
 ] as const;
 
 // Services
@@ -141,7 +137,7 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
+    title: "React.js Developer Remotely",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
@@ -154,7 +150,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "React Native Developer Online",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -180,7 +176,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Full stack Developer Remotely",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
@@ -198,24 +194,24 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Hunde proved me wrong.",
+    name: "Obsa Abdi",
     designation: "CFO",
     company: "Acme Co",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Hunde does.",
+    name: "Melaku Birhanu",
     designation: "COO",
     company: "DEF Corp",
     image: user2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Hundee optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Dereje Tasew",
     designation: "CTO",
     company: "456 Enterprises",
     image: user3,
@@ -227,7 +223,7 @@ export const PROJECTS = [
   {
     name: "Disney+ Clone",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      " Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats.",
     tags: [
       {
         name: "react",
@@ -243,8 +239,8 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: "",
+    live_site_link: "",
   },
   {
     name: "Golds Gym",
@@ -265,8 +261,8 @@ export const PROJECTS = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    source_code_link: "",
+    live_site_link: "",
   },
   {
     name: "Shoppy",
@@ -287,12 +283,13 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    source_code_link: "",
+    live_site_link: "",
   },
   {
     name: "TikTok Clone",
     description:
+
       "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
     tags: [
       {
@@ -309,8 +306,8 @@ export const PROJECTS = [
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    source_code_link: "",
+    live_site_link: "",
   },
   {
     name: "Cryptoverse",
@@ -331,8 +328,8 @@ export const PROJECTS = [
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    source_code_link: "",
+    live_site_link: "",
   },
   {
     name: "Travel Advisor",
@@ -353,8 +350,8 @@ export const PROJECTS = [
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    source_code_link: "",
+    live_site_link: "",
   },
 ] as const;
 
@@ -362,21 +359,21 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "",
   },
 ] as const;

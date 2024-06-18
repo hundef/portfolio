@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { cn } from "../utils/lib";
 
 // Hero
+export const exprianceYear = new Date().getFullYear() - 2017
 export const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -16,18 +17,18 @@ export const Hero = () => {
       >
         {/* Title */}
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915eff]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-5 h-5 rounded-full bg-secondary" />
+          <div className="w-1 sm:h-80 h-40 bg-gradient-custom" />
         </div>
 
         {/* About Me */}
         <div>
           <h1 className={cn(styles.heroHeadText, "text-white")}>
-            Hi, I'm <span className="text-[#915eff]">Shubham</span>
+            Hi, I'm <span className="text-secondary">Hunde</span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+            A full-stack developer with over {exprianceYear} years of experience in building robust web app.
+            <br className="sm:block hidden" />
           </p>
         </div>
       </div>

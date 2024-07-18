@@ -221,9 +221,9 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "ERP",
     description:
-      " Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats.",
+      " ERP Suite is a comprehensive, modular enterprise resource planning (ERP) solution designed to streamline business processes, provide real-time insights, and support scalability. It offers a robust suite of applications that integrate seamlessly to cover all aspects of an organization's operations.",
     tags: [
       {
         name: "react",
@@ -243,9 +243,9 @@ export const PROJECTS = [
     live_site_link: "",
   },
   {
-    name: "Golds Gym",
+    name: "E-Commerce",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "Modular solution designed to streamline online business operations, enhance customer experiences, and support scalability. It integrates all aspects of e-commerce, from storefront management to customer service.                        ",
     tags: [
       {
         name: "react",
@@ -260,17 +260,17 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
-    source_code_link: "",
-    live_site_link: "",
+    // image: project2,
+    // source_code_link: "",
+    // live_site_link: "",
   },
   {
-    name: "Shoppy",
+    name: "Mobile Application",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "Built with React Native, offers seamless cross-platform support, ensuring a consistent and high-performance experience on both iOS and Android devices.",
     tags: [
       {
-        name: "react",
+        name: "React native",
         color: "blue-text-gradient",
       },
       {
@@ -282,15 +282,15 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "",
-    live_site_link: "",
+    // image: project3,
+    // source_code_link: "",
+    // live_site_link: "",
   },
   {
-    name: "TikTok Clone",
+    name: "Web Application",
     description:
 
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "web app stands out for its real-time updates, responsive design, and scalability, ensuring a smooth and enjoyable experience for users across various devices.",
     tags: [
       {
         name: "nextjs",
@@ -305,14 +305,14 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project4,
-    source_code_link: "",
-    live_site_link: "",
+    // image: project4,
+    // source_code_link: "",
+    // live_site_link: "",
   },
   {
-    name: "Cryptoverse",
+    name: "Cloud Computing",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "Cloud computing offers cost-effective solutions by eliminating the need for expensive hardware and maintenance. It also enables scalability, allowing companies to scale their resources up or down based on demand. This agility fosters innovation and quicker time-to-market for products and services. .",
     tags: [
       {
         name: "react",
@@ -332,9 +332,9 @@ export const PROJECTS = [
     live_site_link: "",
   },
   {
-    name: "Travel Advisor",
+    name: "Portal System",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "A digital gateway that connects users to a wide range of resources, information, and services in one centralized platform. It serves as a hub where users can access relevant content, tools, and applications tailored to their needs and roles.                                         ",
     tags: [
       {
         name: "react",
